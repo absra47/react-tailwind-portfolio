@@ -3,20 +3,21 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "Blog Web App",
+    description:
+      "This full-stack blog web app enables users to create and manage posts with ease, featuring a user-friendly interface and an admin panel for editing and deleting content The app displays posts in reverse chronological order on the homepage, providing real-time updates for seamless content management.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["EJS", "Node.js", "Express", "MongoDB"],
+    demoUrl: "https://absra47.github.io/GO2COD_FS_01/",
+    githubUrl: "https://github.com/absra47/GO2COD_FS_01",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Document Management System",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "Developed a secure system for managing documents for the Ministry of Innovation and Technology (MINT), contributing to feature enhancement and ensuring system functionality and data integrity.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+    tags: ["Next.js", "TypeScript", "Django"],
     demoUrl: "#",
     githubUrl: "#",
   },
@@ -24,11 +25,21 @@ const projects = [
     id: 3,
     title: "E-commerce Platform",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "A FastAPI application designed to manage a personal music collection. It allows you to perform Create, Read, Update, and Delete (CRUD) operations on songs, now with persistent data storage, advanced search capabilities, external lyrics fetching, and asynchronous metadata enrichment.",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
+    tags: ["Python", "FastAPI", "Docker"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/absra47/song_managment",
+  },
+  {
+    id: 4,
+    title: "Spotify Clone",
+    description:
+      "Spotfy clone , It's a responsive and user-friendly platform that allows users to browse and listen to music tracks.",
+    image: "/projects/project4.png",
+    tags: ["React", "Tailwind", "Vite"],
+    demoUrl: "https://spotify-clone-frontend-fawn.vercel.app/",
+    githubUrl: "https://github.com/absra47/song-management",
   },
 ];
 
@@ -63,7 +74,10 @@ export const ProjectsSection = () => {
               <div className="p-6">
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag) => (
-                    <span className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
+                    <span
+                      key={tag}
+                      className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground"
+                    >
                       {tag}
                     </span>
                   ))}
@@ -100,7 +114,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/absra47"
           >
             Check My Github <ArrowRight size={16} />
           </a>
