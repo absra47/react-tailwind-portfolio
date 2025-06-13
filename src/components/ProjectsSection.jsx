@@ -23,7 +23,7 @@ const projects = [
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Music Catalog API",
     description:
       "A FastAPI application designed to manage a personal music collection. It allows you to perform Create, Read, Update, and Delete (CRUD) operations on songs, now with persistent data storage, advanced search capabilities, external lyrics fetching, and asynchronous metadata enrichment.",
     image: "/projects/project3.png",
@@ -40,6 +40,26 @@ const projects = [
     tags: ["React", "Tailwind", "Vite"],
     demoUrl: "https://spotify-clone-frontend-fawn.vercel.app/",
     githubUrl: "https://github.com/absra47/song-management",
+  },
+  {
+    id: 5,
+    title: "E-Commerce Store & Admin Dashboard",
+    description:
+      "This full-stack e-commerce platform features a responsive customer store  and a powerful admin dashboard. Users can seamlessly manage products, utilize a dynamic shopping cart, and process Stripe payments with a conditional coupon rewards system. It leverages Redis for enhanced performance.",
+    image: "/projects/project5.png",
+    tags: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Stripe",
+      "Redis",
+      "Zustand",
+      "Tailwind CSS",
+      "Auth",
+    ],
+    demoUrl: "https://e-commerce-store-vfky.onrender.com",
+    githubUrl: "https://github.com/absra47/e-commerce_store",
   },
 ];
 
