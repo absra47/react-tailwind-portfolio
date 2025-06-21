@@ -21,15 +21,16 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            I create stellar web experiences with modern technologies.
-            Specializing in front-end development, I build interfaces that are
-            both beautiful and functional. As a passionate Junior Software
-            Engineer, I focus on transforming innovative ideas into robust,
-            user-centric web applications. My work includes developing highly
-            functional interfaces and solving complex challenges, as
-            demonstrated by projects like a final year web application designed
-            to find the cheapest prices across various online retailers. I am
-            eager to collaborate and contribute to dynamic teams.
+            I create stellar web experiences and build robust software
+            solutions. Specializing in both modern web technologies and ERP
+            development with Odoo, I build interfaces and systems that are both
+            functional and impactful. As a passionate Junior Software Engineer,
+            I focus on transforming innovative ideas into robust, user-centric
+            applications. My work includes developing highly functional
+            interfaces, solving complex challenges, and understanding business
+            processes, as demonstrated by diverse projects from web applications
+            to custom Odoo modules. I am eager to collaborate and contribute to
+            dynamic teams.
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">

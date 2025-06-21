@@ -16,6 +16,13 @@ const skills = [
   { name: "PostgreSQL", level: 65, category: "backend" },
   { name: "GraphQL", level: 60, category: "backend" },
 
+  // ERP & Business Systems
+  { name: "Odoo", level: 70, category: "ERP & Business Systems" },
+  { name: "Python", level: 85, category: "ERP & Business Systems" },
+  { name: "XML", level: 70, category: "ERP & Business Systems" },
+  { name: "SQL", level: 75, category: "ERP & Business Systems" },
+  { name: "ERP Concepts", level: 60, category: "ERP & Business Systems" },
+  { name: "Linux", level: 60, category: "ERP & Business Systems" },
   // Tools
   { name: "Git/GitHub", level: 90, category: "tools" },
   { name: "Wordpress", level: 90, category: "tools" },
@@ -23,7 +30,13 @@ const skills = [
   { name: "VS Code", level: 95, category: "tools" },
 ];
 
-const categories = ["all", "frontend", "backend", "tools"];
+const categories = [
+  "all",
+  "frontend",
+  "backend",
+  "ERP & Business Systems",
+  "tools",
+];
 
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
